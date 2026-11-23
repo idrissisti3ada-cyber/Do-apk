@@ -1,0 +1,6 @@
+{
+  "name": "MyCode Hub",
+  "description": "Combined MyCodeG7f (15-16 digit shop2game) and garenaCode (12-char reward.ff.garena.com) capture, floating OCR, and auto-redeem.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

